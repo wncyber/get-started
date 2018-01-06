@@ -1,0 +1,11 @@
+repositories {
+    mavenLocal()
+    jcenter()
+    mavenCentral()
+}
+
+apply plugin: 'java'
+apply plugin: 'application'
+
+mainClassName = 'com.wncyber.getstarted.Hello'
+
